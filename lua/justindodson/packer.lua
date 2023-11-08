@@ -95,7 +95,7 @@ return require('packer').startup(function(use)
         config = function ()
             require("nvim-tree").setup({
                 filters = {
-                    dotfiles = true
+                    dotfiles = false
                 }
             })
         end

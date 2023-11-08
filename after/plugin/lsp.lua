@@ -4,7 +4,6 @@ local lsp = require('lsp-zero').preset({
 	manage_nvim_cmp = true,
 	suggest_lsp_servers = false,
 })
-
 lsp.ensure_installed({
 	'tsserver',
 	'eslint',
@@ -15,3 +14,7 @@ lsp.ensure_installed({
 lsp.nvim_workspace()
 
 lsp.setup()
+
+vim.diagnostic.config({
+    virtual_text=true
+})

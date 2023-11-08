@@ -1,3 +1,4 @@
+require("justindodson.packer")
 require("justindodson.remap")
 require("justindodson.set")
 vim.g.loaded_netrw = 1

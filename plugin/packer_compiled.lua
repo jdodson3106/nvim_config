@@ -135,7 +135,7 @@ _G.packer_plugins = {
     url = "https://github.com/williamboman/mason.nvim"
   },
   nvim = {
-    config = { "\27LJ\2\n«\1\0\1\4\0\14\0\0165\1\3\0005\2\1\0009\3\0\0=\3\2\2=\2\4\0015\2\6\0009\3\5\0=\3\a\2=\2\b\0015\2\n\0009\3\t\0=\3\2\2=\2\v\0015\2\f\0=\2\r\1L\1\2\0\20TelescopeBorder\1\0\1\tlink\16FloatBorder\nPmenu\1\0\0\tnone\14CmpBorder\afg\1\0\0\rsurface2\15TabLineSel\1\0\0\abg\1\0\0\tpinkù\3\1\0\5\0\27\0,6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0004\4\0\0=\4\5\0034\4\0\0=\4\6\0034\4\0\0=\4\a\0034\4\0\0=\4\b\0034\4\0\0=\4\t\0034\4\0\0=\4\n\0034\4\0\0=\4\v\0034\4\0\0=\4\f\0034\4\0\0=\4\r\0034\4\0\0=\4\14\0034\4\0\0=\4\15\3=\3\16\0025\3\18\0005\4\17\0=\4\19\3=\3\20\0025\3\22\0003\4\21\0=\4\19\3=\3\23\2B\0\2\0016\0\24\0009\0\25\0009\0\26\0'\2\1\0B\0\2\1K\0\1\0\16colorscheme\bcmd\bvim\24highlight_overrides\1\0\0\0\20color_overrides\nmocha\1\0\0\1\0\3\vmantle\f#000000\ncrust\f#000000\tbase\f#000000\vstyles\ntypes\15properties\rbooleans\fnumbers\14variables\fstrings\rkeywords\14functions\nloops\17conditionals\rcomments\1\0\0\1\0\5\27transparent_background\2\16term_colors\2\fflavour\nmocha\fno_bold\1\14no_italic\1\nsetup\15catppuccin\frequire\0" },
+    config = { "\27LJ\2\n«\1\0\1\4\0\14\0\0165\1\3\0005\2\1\0009\3\0\0=\3\2\2=\2\4\0015\2\6\0009\3\5\0=\3\a\2=\2\b\0015\2\n\0009\3\t\0=\3\2\2=\2\v\0015\2\f\0=\2\r\1L\1\2\0\20TelescopeBorder\1\0\1\tlink\16FloatBorder\nPmenu\1\0\0\tnone\14CmpBorder\afg\1\0\0\rsurface2\15TabLineSel\1\0\0\abg\1\0\0\tpinkù\3\1\0\5\0\27\0,6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0004\4\0\0=\4\5\0034\4\0\0=\4\6\0034\4\0\0=\4\a\0034\4\0\0=\4\b\0034\4\0\0=\4\t\0034\4\0\0=\4\n\0034\4\0\0=\4\v\0034\4\0\0=\4\f\0034\4\0\0=\4\r\0034\4\0\0=\4\14\0034\4\0\0=\4\15\3=\3\16\0025\3\18\0005\4\17\0=\4\19\3=\3\20\0025\3\22\0003\4\21\0=\4\19\3=\3\23\2B\0\2\0016\0\24\0009\0\25\0009\0\26\0'\2\1\0B\0\2\1K\0\1\0\16colorscheme\bcmd\bvim\24highlight_overrides\1\0\0\0\20color_overrides\nmocha\1\0\0\1\0\3\vmantle\f#000000\tbase\f#000000\ncrust\f#000000\vstyles\ntypes\15properties\rbooleans\fnumbers\14variables\fstrings\rkeywords\14functions\nloops\17conditionals\rcomments\1\0\0\1\0\5\14no_italic\1\fno_bold\1\fflavour\nmocha\16term_colors\2\27transparent_background\2\nsetup\15catppuccin\frequire\0" },
     loaded = true,
     path = "/Users/justindodson/.local/share/nvim/site/pack/packer/start/nvim",
     url = "https://github.com/catppuccin/nvim"
@@ -151,7 +151,7 @@ _G.packer_plugins = {
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-tree.lua"] = {
-    config = { "\27LJ\2\n[\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\ffilters\1\0\0\1\0\1\rdotfiles\2\nsetup\14nvim-tree\frequire\0" },
+    config = { "\27LJ\2\n[\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\ffilters\1\0\0\1\0\1\rdotfiles\1\nsetup\14nvim-tree\frequire\0" },
     loaded = true,
     path = "/Users/justindodson/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/nvim-tree/nvim-tree.lua"
@@ -205,18 +205,18 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: nvim
-time([[Config for nvim]], true)
-try_loadstring("\27LJ\2\n«\1\0\1\4\0\14\0\0165\1\3\0005\2\1\0009\3\0\0=\3\2\2=\2\4\0015\2\6\0009\3\5\0=\3\a\2=\2\b\0015\2\n\0009\3\t\0=\3\2\2=\2\v\0015\2\f\0=\2\r\1L\1\2\0\20TelescopeBorder\1\0\1\tlink\16FloatBorder\nPmenu\1\0\0\tnone\14CmpBorder\afg\1\0\0\rsurface2\15TabLineSel\1\0\0\abg\1\0\0\tpinkù\3\1\0\5\0\27\0,6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0004\4\0\0=\4\5\0034\4\0\0=\4\6\0034\4\0\0=\4\a\0034\4\0\0=\4\b\0034\4\0\0=\4\t\0034\4\0\0=\4\n\0034\4\0\0=\4\v\0034\4\0\0=\4\f\0034\4\0\0=\4\r\0034\4\0\0=\4\14\0034\4\0\0=\4\15\3=\3\16\0025\3\18\0005\4\17\0=\4\19\3=\3\20\0025\3\22\0003\4\21\0=\4\19\3=\3\23\2B\0\2\0016\0\24\0009\0\25\0009\0\26\0'\2\1\0B\0\2\1K\0\1\0\16colorscheme\bcmd\bvim\24highlight_overrides\1\0\0\0\20color_overrides\nmocha\1\0\0\1\0\3\vmantle\f#000000\ncrust\f#000000\tbase\f#000000\vstyles\ntypes\15properties\rbooleans\fnumbers\14variables\fstrings\rkeywords\14functions\nloops\17conditionals\rcomments\1\0\0\1\0\5\27transparent_background\2\16term_colors\2\fflavour\nmocha\fno_bold\1\14no_italic\1\nsetup\15catppuccin\frequire\0", "config", "nvim")
-time([[Config for nvim]], false)
 -- Config for: nvim-tree.lua
 time([[Config for nvim-tree.lua]], true)
-try_loadstring("\27LJ\2\n[\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\ffilters\1\0\0\1\0\1\rdotfiles\2\nsetup\14nvim-tree\frequire\0", "config", "nvim-tree.lua")
+try_loadstring("\27LJ\2\n[\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\ffilters\1\0\0\1\0\1\rdotfiles\1\nsetup\14nvim-tree\frequire\0", "config", "nvim-tree.lua")
 time([[Config for nvim-tree.lua]], false)
 -- Config for: trouble.nvim
 time([[Config for trouble.nvim]], true)
 try_loadstring("\27LJ\2\nC\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\nicons\1\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
 time([[Config for trouble.nvim]], false)
+-- Config for: nvim
+time([[Config for nvim]], true)
+try_loadstring("\27LJ\2\n«\1\0\1\4\0\14\0\0165\1\3\0005\2\1\0009\3\0\0=\3\2\2=\2\4\0015\2\6\0009\3\5\0=\3\a\2=\2\b\0015\2\n\0009\3\t\0=\3\2\2=\2\v\0015\2\f\0=\2\r\1L\1\2\0\20TelescopeBorder\1\0\1\tlink\16FloatBorder\nPmenu\1\0\0\tnone\14CmpBorder\afg\1\0\0\rsurface2\15TabLineSel\1\0\0\abg\1\0\0\tpinkù\3\1\0\5\0\27\0,6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0004\4\0\0=\4\5\0034\4\0\0=\4\6\0034\4\0\0=\4\a\0034\4\0\0=\4\b\0034\4\0\0=\4\t\0034\4\0\0=\4\n\0034\4\0\0=\4\v\0034\4\0\0=\4\f\0034\4\0\0=\4\r\0034\4\0\0=\4\14\0034\4\0\0=\4\15\3=\3\16\0025\3\18\0005\4\17\0=\4\19\3=\3\20\0025\3\22\0003\4\21\0=\4\19\3=\3\23\2B\0\2\0016\0\24\0009\0\25\0009\0\26\0'\2\1\0B\0\2\1K\0\1\0\16colorscheme\bcmd\bvim\24highlight_overrides\1\0\0\0\20color_overrides\nmocha\1\0\0\1\0\3\vmantle\f#000000\tbase\f#000000\ncrust\f#000000\vstyles\ntypes\15properties\rbooleans\fnumbers\14variables\fstrings\rkeywords\14functions\nloops\17conditionals\rcomments\1\0\0\1\0\5\14no_italic\1\fno_bold\1\fflavour\nmocha\16term_colors\2\27transparent_background\2\nsetup\15catppuccin\frequire\0", "config", "nvim")
+time([[Config for nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
