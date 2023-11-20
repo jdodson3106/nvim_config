@@ -114,4 +114,6 @@ return require('packer').startup(function(use)
         end
     }
 
+    use("vrischmann/tree-sitter-templ")
+
 end)

@@ -7,7 +7,8 @@ local lsp = require('lsp-zero').preset({
 lsp.ensure_installed({
 	'tsserver',
 	'eslint',
-
+    'gopls',
+    'templ'
 })
 
 -- (Optional) Configure lua language server for neovim
@@ -18,3 +19,4 @@ lsp.setup()
 vim.diagnostic.config({
     virtual_text=true
 })
+
