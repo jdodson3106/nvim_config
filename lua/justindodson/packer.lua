@@ -116,4 +116,11 @@ return require('packer').startup(function(use)
 
     use("vrischmann/tree-sitter-templ")
 
+    use {
+    'wiliamks/nice-reference.nvim',
+    requires = {
+        { 'rmagatti/goto-preview', config = function() require('goto-preview').setup {} end } --optional
+    }
+}
+
 end)
