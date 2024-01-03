@@ -124,5 +124,13 @@ return require('packer').startup(function(use)
 }
     use 'freddiehaddad/feline.nvim'
     use "lewis6991/gitsigns.nvim"
+    use "ray-x/go.nvim"
+
+
+
+    -- debugger
+    use {"rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"}}
+    use "theHamsta/nvim-dap-virtual-text"
+    use "leoluz/nvim-dap-go"
 
 end)
